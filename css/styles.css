@@ -88,6 +88,7 @@ p{
   .title-image{
     position: static;
     transform: rotate(0);
+    width: 50%;
   }
   #features{
     position: static;
@@ -155,4 +156,31 @@ p{
 
 .pricing-column{
   padding:3% 2%;
+}
+
+
+/* CTA section */
+#cta{
+  text-align: center;
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 5% 15% 3%;
+}
+
+.cta-h3{
+  font-size: 3rem;
+}
+
+/* footer section */
+#footer{
+  padding: 5% 15% 3%;
+  text-align: center;
+}
+
+.footer-icon{
+  margin: 2px;
+}
+
+.footer-p{
+  margin-top: 10px;
 }
