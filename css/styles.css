@@ -68,15 +68,40 @@ p{
 
 /* title image */
 .title-image{
-  width: 60%;
   transform: rotate(45deg);
+  width: 22%;
+  position: absolute;
 }
+/*
+.img-div{
+  position: absolute;
+  right:-1%;
+} */
 
+@media (max-width: 1200px) {
+  #title{
+    text-align: center;
+  }
+  h1{
+    font-size: 2.5rem;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+  #features{
+    position: static;
+  }
+}
 
 /* featurebox */
 #features{
   padding: 7% 15%;
+  background-color: grey;
+  position: relative;
+  z-index: 1;
 }
+
 
 .feature-box{
   text-align: center;
